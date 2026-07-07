@@ -1,2 +1,25 @@
-.env
+# Dependencies
 node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Generated production files
+outputs/
+*.mp4
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Local binaries and temp files
+ffmpeg.exe
+imp.txt
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
